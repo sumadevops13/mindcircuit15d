@@ -15,9 +15,14 @@
 	</properties>
 
 	<distributionManagement>
+		<snapshotRepository>
+			<id>NexusRepo</id>
+			<url>http://54.163.37.216:8081/repository/batch15-repo-snapshot/</url>
+		</snapshotRepository>
+			
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-54-227-67-7.compute-1.amazonaws.com:8081/repository/batch15-repo-release/</url>
+		    <url>http://54.163.37.216:8081/repository/batch15-repo-release/</url>
 		</repository>
   	</distributionManagement>
 
