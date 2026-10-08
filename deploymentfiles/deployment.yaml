@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: fbcont1
-          image: sumalathadevops13/mindcircuit15d:fb_httpd
+          image: sumalathadevops13/mindcircuit15d:11
           ports:
             - containerPort: 8080
       
